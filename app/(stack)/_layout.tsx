@@ -1,14 +1,13 @@
 import { Stack } from 'expo-router'
-import React from 'react'
 
 const StackLayout = () => {
     return (
         <Stack
             screenOptions={{
-                headerShown: false,
-                contentStyle: {
-                    backgroundColor: 'white',
-                }
+                // headerShown: false,
+                // contentStyle: {
+                //     backgroundColor: 'white',
+                // }
             }}
         >
             <Stack.Screen
@@ -35,7 +34,7 @@ const StackLayout = () => {
                     title: 'Settings Screen',
                 }}
             />
-        </Stack>
+        </Stack >
     )
 }
 
